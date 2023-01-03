@@ -10,7 +10,7 @@ describe('@checkout should checkout', () => {
         Login.login(data.login.standardUser)
     })
     it('@checkout_successful should checkout with success', () => {
-        Inventory.selectProductSortContainerOption(data.inventory.productSortContainer)
+        Inventory.selectProductSortContainerOption(data.inventory.productSortContainer.index, data.inventory.productSortContainer.activeOption)
         Inventory.addToCartButton()
         Inventory.openShoppingCartButton()
         Cart.clickToCheckout()

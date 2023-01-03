@@ -1,3 +1,5 @@
+import Page from './_page'
+
 class Checkout{
     elements = {
         firstNameField: () => cy.get('[data-test="firstName"]'),
@@ -12,10 +14,12 @@ class Checkout{
         this.elements.lastNameField().type(lastName)
         this.elements.postalCodeField().type(postalCode)
         this.elements.continueButton().click()
+        Page.load('/checkout-step-two.html')
     }
 
     clickToFinish(){
         this.elements.finishButton().click()
+        Page.load('/checkout-complete.html')
     }
 }
 

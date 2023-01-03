@@ -1,3 +1,5 @@
+import Page from './_page'
+
 class Login{
     elements = {
         usernameField: () => cy.get('[data-test="username"]'),
@@ -9,7 +11,9 @@ class Login{
         this.elements.usernameField().type(username)
         this.elements.passwordField().type(password)
         this.elements.loginButton().click()
+        Page.load('/inventory.html')
     }
+
 }
 
 export default new Login()
