@@ -7,7 +7,7 @@ This repository aims to present some of the automated testing knowledge acquired
 | Framework  | Pattern | Type | Link | 
 | ------------- | ------------- | ------------- | ------------- |
 | Cypress | POM  | web e2e | [cypress_e2e_web_tests](https://github.com/leonardoluizantunes/saucedemo-qa-challenge/tree/main/cypress_e2e_web_tests) |
-| Playwright  | POM  | web e2e | WIP |
+| Playwright  | POM  | web e2e | [playwright_e2e_web_tests](https://github.com/leonardoluizantunes/saucedemo-qa-challenge/tree/main/playwright_e2e_web_tests) |
 | Selenium  | POM  | web e2e | WIP |
 | Cypress | POM + Cucumber | web e2e | WIP |
 | Selenium | POM + Cucumber | web e2e | WIP |
