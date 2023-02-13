@@ -14,30 +14,38 @@ This repository aims to present some of the automated testing knowledge acquired
 
 ## Hi, I'm Leonardo. Nice to meet you!! 👋
 
-## 🚀 About me
 Quality engineer, with almost 4 years of experience with e2e, mobile, api and performance development and test automation. Knowledge and experience in CI/CD, on platforms like GitLab and GitHub. Experience with agile methodology, both kanban and scrum, task management tools like Jira and Azure Boards, documentation tools like confluence.
 
 ## 🛠 Skills
+
 - Selenium
 - Webdriver.IO
 - Cypress
 - Playwright
 - Appium
 - Protractor
-- Postman
 - Cucumber
 - Jest
+- K6
+- Postman
+- GraphQL
+- Swagger
 - Javascript
+- Typescript
 - HTML5
 - CSS3
 - Java
 - C#
-- Swagger
-- K6
-- GraphQL
 - Git
 - GitHub Actions
-- GitLab CI/CD
+- GitLab Pipelines
+- Azure Devops
+- Microsoft SQL Server
+- MySQL
+- PostgreSQL
+- MongoDB
+- Docker
+- Kubernetes
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/leonardoluizantunes/saucedemo-qa-challenge)
